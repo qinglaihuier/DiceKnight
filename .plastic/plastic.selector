@@ -1,0 +1,4 @@
+repository "Dice Knight@ffffourfire@cloud.cn"
+  path "/"
+    smartbranch "/main" 
+     

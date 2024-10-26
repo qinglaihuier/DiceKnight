@@ -1,0 +1,452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db779e12dd97034b8381be9f50520f1, type: 3}
+  m_Name: DiceFacePropsWarehouse
+  m_EditorClassIdentifier: 
+  diceFacePropsWarehouse:
+  - propsName: 0
+    skillName: 0
+    price: 5
+    salePrice: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: fc44c32cd60b8e94baea8ff8b1ff15c0, type: 3}
+    description: "\u539F\u5730\u53D1\u751F\u7206\u70B8\uFF0C\u9020\u62100.4\u500D\u7269\u7406\u4F24\u5BB3
+      \u7206\u70B8\u8303\u56F4\u534A\u5F84\u4E3A3"
+  - propsName: 1
+    skillName: 0
+    price: 12
+    salePrice: 7
+    grade: 2
+    sprite: {fileID: 21300000, guid: b1d602d03261d964bb3e7e8bc658e181, type: 3}
+    description: "\u539F\u5730\u53D1\u751F\u7206\u70B8\uFF0C\u9020\u62100.8\u500D\u7269\u7406\u4F24\u5BB3
+      \u7206\u70B8\u8303\u56F4\u534A\u5F84\u4E3A3"
+  - propsName: 2
+    skillName: 0
+    price: 25
+    salePrice: 15
+    grade: 3
+    sprite: {fileID: 21300000, guid: d02eb1e640c5a254191fd4c3046d8f4d, type: 3}
+    description: "\u539F\u5730\u53D1\u751F\u7206\u70B8\uFF0C\u9020\u62100.8\u500D\u7269\u7406\u4F24\u5BB3
+      \u7206\u70B8\u8303\u56F4\u534A\u5F84\u4E3A3"
+  - propsName: 3
+    skillName: 0
+    price: 56
+    salePrice: 33
+    grade: 4
+    sprite: {fileID: 21300000, guid: 69bc41323ce89254ebe3e04f7e4a329d, type: 3}
+    description: "\"\u539F\u5730\u53D1\u751F\u7206\u70B8\uFF0C\u9020\u62101.6\u500D\u7269\u7406\u4F24\u5BB3
+      \u7206\u70B8\u8303\u56F4\u534A\u5F84\u4E3A4\""
+  - propsName: 4
+    skillName: 0
+    price: 124
+    salePrice: 75
+    grade: 5
+    sprite: {fileID: 21300000, guid: 7fc199ea88100754d8ed3205e7a36e18, type: 3}
+    description: "\"\u539F\u5730\u53D1\u751F\u7206\u70B8\uFF0C\u9020\u62102\u500D\u7269\u7406\u4F24\u5BB3
+      \u7206\u70B8\u8303\u56F4\u534A\u5F84\u4E3A5\""
+  - propsName: 5
+    skillName: 1
+    price: 5
+    salePrice: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: 7c644be8538dd0f45b2225639bddc439, type: 3}
+    description: "\u5BF9\u534A\u5F84\u4E3A2\u8303\u56F4\u5185\u751F\u547D\u503C\u6700\u4F4E\u5355\u4F4D\u9020\u62101.5\u500D\u7269\u7406\u4F24\u5BB3"
+  - propsName: 6
+    skillName: 1
+    price: 12
+    salePrice: 7
+    grade: 2
+    sprite: {fileID: 21300000, guid: cebc222903e77b144bcd5c7102083a9d, type: 3}
+    description: "\u5BF9\u534A\u5F84\u4E3A2\u8303\u56F4\u5185\u751F\u547D\u503C\u4F4E\u4E8E30%\u7684\u5355\u4F4D\u9020\u62102\u500D\u7269\u7406\u4F24\u5BB3"
+  - propsName: 7
+    skillName: 1
+    price: 25
+    salePrice: 15
+    grade: 3
+    sprite: {fileID: 21300000, guid: 975be630a037d564aa5f94c389983e6a, type: 3}
+    description: "\"\u5BF9\u534A\u5F84\u4E3A2\u8303\u56F4\u5185\u6240\u6709\u654C\u4EBA\u9020\u62100.7\u500D\u7269\u7406\u4F24\u5BB3\uFF0C
+      \u751F\u547D\u503C\u4F4E\u4E8E30%\u7684\u5355\u4F4D\u989D\u5916\u90201.8\u500D\u7269\u7406\u4F24\u5BB3\""
+  - propsName: 8
+    skillName: 1
+    price: 56
+    salePrice: 33
+    grade: 4
+    sprite: {fileID: 21300000, guid: 363040f069c56e347b4137659de7f71d, type: 3}
+    description: "\"\u5BF9\u534A\u5F84\u4E3A2\u8303\u56F4\u5185\u6240\u6709\u654C\u4EBA\u9020\u62101.5\u500D\u7269\u7406\u4F24\u5BB3\uFF0C
+      \u751F\u547D\u503C\u4F4E\u4E8E35%\u7684\u5355\u4F4D\u989D\u5916\u9020\u62101.5\u500D\u7269\u7406\u4F24\u5BB3\""
+  - propsName: 9
+    skillName: 1
+    price: 124
+    salePrice: 75
+    grade: 5
+    sprite: {fileID: 21300000, guid: ac20742d1ae1b7b419c5e66b0f3a546b, type: 3}
+    description: "\"\u5BF9\u534A\u5F84\u4E3A3\u8303\u56F4\u5185\u6240\u6709\u654C\u4EBA\u9020\u62102\u500D\u7269\u7406\u4F24\u5BB3\uFF0C
+      \u751F\u547D\u503C\u4F4E\u4E8E40%\u7684\u5355\u4F4D\u989D\u5916\u9020\u62102.5\u500D\u7269\u7406\u4F24\u5BB3\""
+  - propsName: 10
+    skillName: 2
+    price: 5
+    salePrice: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: 009f2f9bf414ef64b86b64de7f138cf3, type: 3}
+    description: "\"\u4F7F\u534A\u5F84\u4E3A1\u8303\u56F4\u5185\u654C\u4EBA\u6655\u77291s\""
+  - propsName: 11
+    skillName: 2
+    price: 12
+    salePrice: 7
+    grade: 2
+    sprite: {fileID: 21300000, guid: 60591a33d8a49a144944379ca94214a7, type: 3}
+    description: "\"\u4F7F\u534A\u5F84\u4E3A2\u8303\u56F4\u5185\u654C\u4EBA\u6655\u77291s\""
+  - propsName: 12
+    skillName: 2
+    price: 25
+    salePrice: 15
+    grade: 3
+    sprite: {fileID: 21300000, guid: 2401fe092a10467439cbc16637b2cd26, type: 3}
+    description: "\"\u4F7F\u534A\u5F84\u4E3A2\u8303\u56F4\u5185\u654C\u4EBA\u6655\u77291s\uFF0C\u5E76\u9020\u62101\u500D\u7269\u7406\u4F24\u5BB3\""
+  - propsName: 13
+    skillName: 2
+    price: 56
+    salePrice: 33
+    grade: 4
+    sprite: {fileID: 21300000, guid: 54ff02e3ff22d52438873094f00e8d21, type: 3}
+    description: "\"\u4F7F\u534A\u5F84\u4E3A3\u8303\u56F4\u5185\u654C\u4EBA\u6655\u77292s\uFF0C\u5E76\u9020\u62101.5\u500D\u7269\u7406\u4F24\u5BB3\""
+  - propsName: 14
+    skillName: 2
+    price: 124
+    salePrice: 75
+    grade: 5
+    sprite: {fileID: 21300000, guid: 3c351d27870de6f41bc7074f57e46f18, type: 3}
+    description: "\"\u4F7F\u534A\u5F84\u4E3A3\u8303\u56F4\u5185\u654C\u4EBA\u6655\u77293s\uFF0C\u5E76\u9020\u62102\u500D\u7269\u7406\u4F24\u5BB3\""
+  - propsName: 15
+    skillName: 3
+    price: 5
+    salePrice: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: 412e8f1b5c29e6d45b32b9af4d63b1f2, type: 3}
+    description: "\"\u5411\u5341\u5B57\u65B9\u5411\u53D1\u5C04\u4E00\u6B21\u5C16\u523A\uFF0C\u5BF9\u8DEF\u5F84\u4E0A\u7684\u654C\u4EBA\u9020\u62101\u500D\u7269\u7406\u4F24\u5BB3\uFF0C\u5C16\u523A\u901F\u5EA6\u4E3A6\uFF0C\u5927\u5C0F\u534A\u5F84\u4E3A1\""
+  - propsName: 16
+    skillName: 3
+    price: 12
+    salePrice: 7
+    grade: 2
+    sprite: {fileID: 21300000, guid: 1f7b39b1e16caed4587b2e500929b302, type: 3}
+    description: "\"\u5411\u7C73\u5B57\u65B9\u5411\u53D1\u5C04\u4E00\u6B21\u5C16\u523A\uFF0C\u5BF9\u8DEF\u5F84\u4E0A\u7684\u654C\u4EBA\u9020\u62101\u500D\u7269\u7406\u4F24\u5BB3\uFF0C\u5C16\u523A\u901F\u5EA6\u4E3A6\uFF0C\u5927\u5C0F\u534A\u5F84\u4E3A1\""
+  - propsName: 17
+    skillName: 3
+    price: 25
+    salePrice: 15
+    grade: 3
+    sprite: {fileID: 21300000, guid: b983e7a379aa78749ab8dfd5a4df06c7, type: 3}
+    description: "\"\u541112\u4E2A\u65B9\u5411\u5747\u5300\u53D1\u5C04\u4E00\u6B21\u5C16\u523A\uFF0C\u5BF9\u8DEF\u5F84\u4E0A\u7684\u654C\u4EBA\u9020\u62101.5\u500D\u7269\u7406\u4F24\u5BB3\uFF0C\u5C16\u523A\u901F\u5EA6\u4E3A5\uFF0C\u5927\u5C0F\u534A\u5F84\u4E3A1\""
+  - propsName: 18
+    skillName: 3
+    price: 56
+    salePrice: 33
+    grade: 4
+    sprite: {fileID: 21300000, guid: d328e83d82dfa5445aa091165e8e2ba2, type: 3}
+    description: "\"\u541112\u4E2A\u65B9\u5411\u53D1\u5C04\u4E24\u6B21\u5C16\u523A\uFF0C\u5BF9\u8DEF\u5F84\u4E0A\u7684\u654C\u4EBA\u9020\u62101.2\u500D\u7269\u7406\u4F24\u5BB3\uFF0C\u5C16\u523A\u901F\u5EA6\u4E3A4\uFF0C\u5927\u5C0F\u534A\u5F84\u4E3A1\""
+  - propsName: 19
+    skillName: 3
+    price: 124
+    salePrice: 75
+    grade: 5
+    sprite: {fileID: 21300000, guid: 0bac12bf75d9b3e49a7ed025231a1428, type: 3}
+    description: "\"\u541112\u4E2A\u65B9\u5411\u53D1\u5C04\u4E24\u6B21\u5C16\u523A\uFF0C\u5BF9\u8DEF\u5F84\u4E0A\u7684\u654C\u4EBA\u9020\u62101.5\u500D\u7269\u7406\u4F24\u5BB3\uFF0C\u5C16\u523A\u901F\u5EA6\u4E3A3,\uFF0C\u5927\u5C0F\u534A\u5F84\u4E3A1\""
+  - propsName: 20
+    skillName: 4
+    price: 5
+    salePrice: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: cac37bc0fd2b5f040a9505eea3ba50a5, type: 3}
+    description: "\"\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A1\u602A\u7269\u9020\u62101\u500D\u9B54\u6CD5\u4F24\u5BB3\""
+  - propsName: 21
+    skillName: 4
+    price: 12
+    salePrice: 7
+    grade: 2
+    sprite: {fileID: 21300000, guid: b7eaeea3572ccb049864e0e0a31a7151, type: 3}
+    description: "\"\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A2\u602A\u7269\u9020\u62101\u500D\u9B54\u6CD5\u4F24\u5BB3\""
+  - propsName: 22
+    skillName: 4
+    price: 25
+    salePrice: 15
+    grade: 3
+    sprite: {fileID: 21300000, guid: 126dd6ce34593fb45aeea5ddfa237537, type: 3}
+    description: "\"\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A3\u602A\u7269\u9020\u62101.5\u500D\u9B54\u6CD5\u4F24\u5BB3\""
+  - propsName: 23
+    skillName: 4
+    price: 56
+    salePrice: 33
+    grade: 4
+    sprite: {fileID: 21300000, guid: d6877907916ff1b40b49c24d09166eeb, type: 3}
+    description: "\"\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A5\u602A\u7269\u9020\u62101.8\u500D\u9B54\u6CD5\u4F24\u5BB3\""
+  - propsName: 24
+    skillName: 4
+    price: 124
+    salePrice: 75
+    grade: 5
+    sprite: {fileID: 21300000, guid: 0d3667a57af075b4796e4bb92a718d63, type: 3}
+    description: "\"\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A7\u602A\u7269\u9020\u62102\u500D\u9B54\u6CD5\u4F24\u5BB3\""
+  - propsName: 25
+    skillName: 5
+    price: 5
+    salePrice: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: a3b6676f62ff47946a1337d33d71fd86, type: 3}
+    description: "\"\u5BF9\u73A9\u5BB6\u5468\u56F4\u4EA7\u751F\u4E00\u4E2A\u5149\u73AF
+      \u6BCF\u79D2\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A1\u654C\u4EBA\u9020\u62100.3\u500D\u9B54\u6CD5\u4F24\u5BB3\uFF0C\u6301\u7EED3s\""
+  - propsName: 26
+    skillName: 5
+    price: 12
+    salePrice: 7
+    grade: 2
+    sprite: {fileID: 21300000, guid: 4a4d8faa2fc36fc4b9c753c5de8fe907, type: 3}
+    description: "\"\u5BF9\u73A9\u5BB6\u5468\u56F4\u4EA7\u751F\u4E00\u4E2A\u5149\u73AF
+      \u6BCF\u79D2\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A1\u654C\u4EBA\u9020\u62100.7\u500D\u9B54\u6CD5\u4F24\u5BB3\uFF0C\u6301\u7EED5s\""
+  - propsName: 27
+    skillName: 5
+    price: 25
+    salePrice: 15
+    grade: 3
+    sprite: {fileID: 21300000, guid: 379b122c42911ea4a99fff2538cf4265, type: 3}
+    description: "\"\u5BF9\u73A9\u5BB6\u5468\u56F4\u4EA7\u751F\u4E00\u4E2A\u5149\u73AF
+      \u6BCF\u79D2\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A2\u654C\u4EBA\u9020\u62100.7\u500D\u9B54\u6CD5\u4F24\u5BB3\uFF0C\u6301\u7EED10s\""
+  - propsName: 28
+    skillName: 5
+    price: 56
+    salePrice: 33
+    grade: 4
+    sprite: {fileID: 21300000, guid: 63dac86c6e75bf945ac89cddf2b91196, type: 3}
+    description: "\"\u5BF9\u73A9\u5BB6\u5468\u56F4\u4EA7\u751F\u4E00\u4E2A\u5149\u73AF
+      \u6BCF\u79D2\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A2\u654C\u4EBA\u9020\u62101\u500D\u9B54\u6CD5\u4F24\u5BB3\uFF0C\u6301\u7EED20s\""
+  - propsName: 29
+    skillName: 5
+    price: 124
+    salePrice: 75
+    grade: 5
+    sprite: {fileID: 21300000, guid: 9623a1634d235a34bad717233affc3b8, type: 3}
+    description: "\"\u5BF9\u73A9\u5BB6\u5468\u56F4\u4EA7\u751F\u4E00\u4E2A\u5149\u73AF
+      \u6BCF\u79D2\u5BF9\u5468\u56F4\u534A\u5F84\u4E3A3\u654C\u4EBA\u9020\u62101\u500D\u9B54\u6CD5\u4F24\u5BB3\uFF0C\u6301\u7EED30s\""
+  - propsName: 30
+    skillName: 6
+    price: 5
+    salePrice: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: f3fda282fcfffe146b9892f7f2048e6d, type: 3}
+    description: "\"\u5728\u9AB0\u5B50\u4F4D\u7F6E\u53EC\u5524\u5929\u4F7F\u865A\u5F71\uFF0C
+      \u4F5C\u4E3A\u654C\u4EBA\u53EF\u653B\u51FB\u5BF9\u8C61\uFF0C\u6301\u7EED5s\""
+  - propsName: 31
+    skillName: 6
+    price: 12
+    salePrice: 7
+    grade: 2
+    sprite: {fileID: 21300000, guid: d530074c9c66e0745b7a161ccf6e72a0, type: 3}
+    description: "\"\u5728\u9AB0\u5B50\u4F4D\u7F6E\u53EC\u5524\u5929\u4F7F\u865A\u5F71\uFF0C
+      \u6301\u7EED\u653B\u51FB\u5468\u56F4\u534A\u5F84\u4E3A1\u654C\u4EBA\uFF0C\u6BCF\u79D2\u9020\u62100.3\u500D\u8303\u56F4\u9B54\u6CD5\u4F24\u5BB3
+      \u4F5C\u4E3A\u654C\u4EBA\u53EF\u653B\u51FB\u5BF9\u8C61\uFF0C\u6301\u7EED5s\""
+  - propsName: 32
+    skillName: 6
+    price: 25
+    salePrice: 15
+    grade: 3
+    sprite: {fileID: 21300000, guid: 40278ee0f97b01c4aa350b81ed9a41cc, type: 3}
+    description: "\"\u5728\u9AB0\u5B50\u4F4D\u7F6E\u53EC\u5524\u5929\u4F7F\u865A\u5F71\uFF0C
+      \u6301\u7EED\u653B\u51FB\u5468\u56F4\u534A\u5F84\u4E3A1\u654C\u4EBA\uFF0C\u6BCF\u79D2\u9020\u62100.5\u500D\u8303\u56F4\u9B54\u6CD5\u4F24\u5BB3
+      \u4F5C\u4E3A\u654C\u4EBA\u53EF\u653B\u51FB\u5BF9\u8C61\uFF0C\u6301\u7EED7s\""
+  - propsName: 33
+    skillName: 6
+    price: 56
+    salePrice: 33
+    grade: 4
+    sprite: {fileID: 21300000, guid: fb959b1911e5f7744a626904c943ab59, type: 3}
+    description: "\"\u5728\u9AB0\u5B50\u4F4D\u7F6E\u53EC\u5524\u5929\u4F7F\u865A\u5F71\uFF0C
+      \u6301\u7EED\u653B\u51FB\u5468\u56F4\u534A\u5F84\u4E3A2\u654C\u4EBA\uFF0C\u6BCF\u79D2\u9020\u62100.5\u500D\u8303\u56F4\u9B54\u6CD5\u4F24\u5BB3
+      \u4F5C\u4E3A\u654C\u4EBA\u53EF\u653B\u51FB\u5BF9\u8C61\uFF0C\u6301\u7EED10s\""
+  - propsName: 34
+    skillName: 6
+    price: 124
+    salePrice: 75
+    grade: 5
+    sprite: {fileID: 21300000, guid: 4ace76e677d38294da84d1e1f96feba3, type: 3}
+    description: "\"\u5728\u9AB0\u5B50\u4F4D\u7F6E\u53EC\u5524\u5929\u4F7F\u865A\u5F71\uFF0C
+      \u6301\u7EED\u653B\u51FB\u5468\u56F4\u534A\u5F84\u4E3A2\u654C\u4EBA\uFF0C\u6BCF\u79D2\u9020\u62101\u500D\u8303\u56F4\u9B54\u6CD5\u4F24\u5BB3
+      \u4F5C\u4E3A\u654C\u4EBA\u53EF\u653B\u51FB\u5BF9\u8C61\uFF0C\u6301\u7EED10s\""
+  - propsName: 35
+    skillName: 7
+    price: 5
+    salePrice: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: 4437d99c446a35347a8181d1d70b2000, type: 3}
+    description: "\"\u9AB0\u5B50\u843D\u5730\u540E\u6062\u590D10%\u751F\u547D\u4E0A\u9650\u7684\u751F\u547D\u503C\""
+  - propsName: 36
+    skillName: 7
+    price: 12
+    salePrice: 7
+    grade: 2
+    sprite: {fileID: 21300000, guid: 257aab7c375d72c41b5561e474195eba, type: 3}
+    description: "\"\u9AB0\u5B50\u843D\u5730\u540E\u6062\u590D15%\u751F\u547D\u4E0A\u9650\u7684\u751F\u547D\u503C\""
+  - propsName: 37
+    skillName: 7
+    price: 25
+    salePrice: 15
+    grade: 3
+    sprite: {fileID: 21300000, guid: be6bb77d1c8699044a029c0d8de29693, type: 3}
+    description: "\"\u9AB0\u5B50\u843D\u5730\u540E\u6062\u590D20%\u751F\u547D\u4E0A\u9650\u7684\u751F\u547D\u503C\""
+  - propsName: 38
+    skillName: 7
+    price: 56
+    salePrice: 33
+    grade: 4
+    sprite: {fileID: 21300000, guid: 7e62eeee32344654bb84a303a7de0032, type: 3}
+    description: "\"\u9AB0\u5B50\u843D\u5730\u540E\u6062\u590D25%\u751F\u547D\u4E0A\u9650\u7684\u751F\u547D\u503C\""
+  - propsName: 39
+    skillName: 7
+    price: 56
+    salePrice: 33
+    grade: 5
+    sprite: {fileID: 21300000, guid: d8648304f32256f46bafcec5f8add7c1, type: 3}
+    description: "\"\u9AB0\u5B50\u843D\u5730\u540E\u6062\u590D30%\u751F\u547D\u4E0A\u9650\u7684\u751F\u547D\u503C\""
+  - propsName: 40
+    skillName: 8
+    price: 30
+    salePrice: 18
+    grade: 3
+    sprite: {fileID: 21300000, guid: a1a74772a7176f640a5c441291784bc5, type: 3}
+    description: "\"\u843D\u5730\u51FB\u6740\u8303\u56F4\u534A\u5F84\u4E3A5\u751F\u547D\u503C\u5C0F\u4E8E\u7B49\u4E8E20%\u7684\u602A\u7269\""
+  - propsName: 41
+    skillName: 8
+    price: 30
+    salePrice: 18
+    grade: 3
+    sprite: {fileID: 21300000, guid: 5dc23df217058cf4c9304d26695f079a, type: 3}
+    description: "\"\u6301\u7EED15s\u83B7\u53D6\u7684\u91D1\u5E01\u7FFB\u500D\""
+  attributePropsWarehouse:
+  - propsName: 0
+    changeName: 0
+    price: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: 32926b13cc251b440a5f18929325ffba, type: 3}
+    description: HP+1
+  - propsName: 1
+    changeName: 0
+    price: 8
+    grade: 2
+    sprite: {fileID: 21300000, guid: a43bc5b23212fc946ae5324303d33d76, type: 3}
+    description: HP+3
+  - propsName: 2
+    changeName: 0
+    price: 20
+    grade: 3
+    sprite: {fileID: 21300000, guid: 4c74bde4dc1b108449749100017cf6fe, type: 3}
+    description: HP+8
+  - propsName: 3
+    changeName: 0
+    price: 45
+    grade: 4
+    sprite: {fileID: 21300000, guid: cf68b122255d42840adef611b132fcd5, type: 3}
+    description: HP+16
+  - propsName: 4
+    changeName: 0
+    price: 72
+    grade: 5
+    sprite: {fileID: 21300000, guid: bf25158b7ba48d7408eff3e359d812b2, type: 3}
+    description: HP+24
+  - propsName: 5
+    changeName: 1
+    price: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: ea7d31c380b1c0c4287c8b5dec43f4cb, type: 3}
+    description: SP+0.2
+  - propsName: 6
+    changeName: 1
+    price: 8
+    grade: 2
+    sprite: {fileID: 21300000, guid: 6b854630159b7fc4682cca0bb433a0c6, type: 3}
+    description: SP+0.5
+  - propsName: 7
+    changeName: 1
+    price: 20
+    grade: 3
+    sprite: {fileID: 21300000, guid: e2cd5cbcf27bf0040ba81be2b8a6d404, type: 3}
+    description: SP+0.8
+  - propsName: 8
+    changeName: 1
+    price: 45
+    grade: 4
+    sprite: {fileID: 21300000, guid: 509a0477b9f54154c82df5155ac7e322, type: 3}
+    description: SP+1
+  - propsName: 9
+    changeName: 1
+    price: 72
+    grade: 5
+    sprite: {fileID: 21300000, guid: 42c14e946fa65dd4e82bb1c3dd89f6ff, type: 3}
+    description: SP+1.5
+  - propsName: 10
+    changeName: 2
+    price: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: cebc511631f40fd46a013546ded62690, type: 3}
+    description: PATK + 3
+  - propsName: 11
+    changeName: 2
+    price: 8
+    grade: 2
+    sprite: {fileID: 21300000, guid: ba1dcbaaecd52534f90c619298b0aaa7, type: 3}
+    description: PATK + 7
+  - propsName: 12
+    changeName: 2
+    price: 20
+    grade: 3
+    sprite: {fileID: 21300000, guid: ab288d3f18aa1044bb1974303c99b4ee, type: 3}
+    description: PATK + 15
+  - propsName: 13
+    changeName: 2
+    price: 45
+    grade: 4
+    sprite: {fileID: 21300000, guid: 108697da5628e454e9540bf283242acc, type: 3}
+    description: PATK + 24
+  - propsName: 14
+    changeName: 2
+    price: 72
+    grade: 5
+    sprite: {fileID: 21300000, guid: 9a606afd3900bdc48b96cf1b4736f93c, type: 3}
+    description: PATK + 36
+  - propsName: 15
+    changeName: 3
+    price: 3
+    grade: 1
+    sprite: {fileID: 21300000, guid: 0224fbd9ac531a54581c2bf7596c0576, type: 3}
+    description: MATK + 4
+  - propsName: 16
+    changeName: 3
+    price: 8
+    grade: 2
+    sprite: {fileID: 21300000, guid: 8861d3acdb3531f4eabe8f5ce6fa97b1, type: 3}
+    description: MATK + 9
+  - propsName: 17
+    changeName: 3
+    price: 20
+    grade: 3
+    sprite: {fileID: 21300000, guid: 1979f2271dbbded4fa19577beb572f14, type: 3}
+    description: MATK + 18
+  - propsName: 18
+    changeName: 3
+    price: 45
+    grade: 4
+    sprite: {fileID: 21300000, guid: e4503a191c5e02e4882229abbdce5e01, type: 3}
+    description: MATK + 28
+  - propsName: 19
+    changeName: 3
+    price: 72
+    grade: 5
+    sprite: {fileID: 21300000, guid: 8d41c155004bc0540a9f81393cc8e722, type: 3}
+    description: MATK + 42
