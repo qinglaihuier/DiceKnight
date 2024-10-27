@@ -19,7 +19,7 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(this);
 
-            Debug.LogWarning("´´ÔìÁË¶à¸öÒôĞ§¹ÜÀíÆ÷µ¥Àı");
+            Debug.LogWarning("ç”Ÿæˆå¤šä¸ªéŸ³æ•ˆç®¡ç†å™¨å•ä¾‹");
         }
         instance = this;
 

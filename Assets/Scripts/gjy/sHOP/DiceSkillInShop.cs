@@ -58,7 +58,7 @@ public class DiceSkillInShop : MonoBehaviour, IPointerClickHandler,IPointerEnter
 
         //ShopManager.Instance.getMoney(salePrice);
 
-            //Íæ¼Ò
+            //ï¿½ï¿½ï¿½
 
        // Destroy(gameObject);
     }

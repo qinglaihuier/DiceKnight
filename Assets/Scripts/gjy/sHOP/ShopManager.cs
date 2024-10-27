@@ -22,7 +22,7 @@ public class ShopManager :MonoBehaviour
 
     public List<AttributePropsName> attributePropsList = new List<AttributePropsName>();
 
-    public GameObject productPrototype; //��Ʒԭ��
+    public GameObject productPrototype; //
 
     Dictionary<int, List<DiceFacePropsName>> diceFacePropsDictionary = new Dictionary<int, List<DiceFacePropsName>>();
 
@@ -73,9 +73,9 @@ public class ShopManager :MonoBehaviour
             instance = this;
         else
         {
-            DestroyImmediate(this);
+            Destroy(this);
 
-            Debug.LogWarning("�ж�� shopmanager������: " + gameObject.name);
+            Debug.LogWarning("生成了多个ShopManager: " + gameObject.name);
 
             return;
         }
